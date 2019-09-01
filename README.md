@@ -1,6 +1,6 @@
 <center><h1><b>Redes Neurais</b></h1></center>
 
-![data](https://i.imgur.com/hBYiFfr.jpg)
+![data](http://qis.fnal.gov/wp-content/uploads/2018/09/3d-ai-artificial-intelligence-1166602.jpg)  
 
 #### Este repositório será atualizado semanalmente, pretendemos compartilhar tudo o que aprendemos para ajudar a comunidade Livre.
 By [J.Junqueira](https://github.com/kuroninho), [Sam](https://github.com/Sam-Marx) and [Pedro](https://github.com/ShowTiime).
@@ -133,11 +133,14 @@ O neurônio matemático pode conter o bias (tendência), -![\theta](https://late
 
 ## Referências bibliográficas
 
-[O que é uma Rede Neural Artificial]: https://portal.tcu.gov.br/inovatcu/noticias/aprendizado-de-maquina-e-divertido.htm
-[O que é uma Rede Neural Artificial]: http://conteudo.icmc.usp.br/pessoas/andre/research/neural/
-[Aplicações das Redes Neurais Artificiais]: https://blog.statsbot.co/neural-networks-for-beginners-d99f2235efca
-[Aplicações das Redes Neurais Artificiais]: https://towardsdatascience.com/introduction-to-neural-networks-advantages-and-applications-96851bd1a207
-[Aplicações das Redes Neurais Artificiais]: https://medium.com/@jayeshbahire/real-world-applications-of-artificial-neural-networks-a6a6bc17ad6a
-[Aplicações das Redes Neurais Artificiais]: https://www.quora.com/What-are-the-applications-of-neural-networks
+[O que é uma Rede Neural Artificial](https://github.com/Sam-Marx/redes-neurais#o-que-é-uma-rede-neural-artificial): https://portal.tcu.gov.br/inovatcu/noticias/aprendizado-de-maquina-e-divertido.htm
 
+[O que é uma Rede Neural Artificial](https://github.com/Sam-Marx/redes-neurais#o-que-é-uma-rede-neural-artificial): http://conteudo.icmc.usp.br/pessoas/andre/research/neural/
 
+[Aplicações das Redes Neurais Artificiais](https://github.com/Sam-Marx/redes-neurais#aplicações-das-redes-neurais-artificiais): https://blog.statsbot.co/neural-networks-for-beginners-d99f2235efca
+
+[Aplicações das Redes Neurais Artificiais](https://github.com/Sam-Marx/redes-neurais#aplicações-das-redes-neurais-artificiais): https://towardsdatascience.com/introduction-to-neural-networks-advantages-and-applications-96851bd1a207
+
+[Aplicações das Redes Neurais Artificiais](https://github.com/Sam-Marx/redes-neurais#aplicações-das-redes-neurais-artificiais): https://medium.com/@jayeshbahire/real-world-applications-of-artificial-neural-networks-a6a6bc17ad6a
+
+[Aplicações das Redes Neurais Artificiais](https://github.com/Sam-Marx/redes-neurais#aplicações-das-redes-neurais-artificiais): https://www.quora.com/What-are-the-applications-of-neural-networks
