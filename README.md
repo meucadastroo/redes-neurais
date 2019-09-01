@@ -1,5 +1,7 @@
 <center><h1><b>Redes Neurais</b></h1></center>
-![](http://qis.fnal.gov/wp-content/uploads/2018/09/3d-ai-artificial-intelligence-1166602.jpg)  
+
+![data](https://i.imgur.com/hBYiFfr.jpg)
+
 #### Este repositório será atualizado semanalmente, pretendemos compartilhar tudo o que aprendemos para ajudar a comunidade Livre.
 By [J.Junqueira](https://github.com/kuroninho), [Sam](https://github.com/Sam-Marx) and [Pedro](https://github.com/ShowTiime).
 ㅤㅤ  
