@@ -1,7 +1,6 @@
-# Redes Neurais
-
-![](https://www.bixtecnologia.com.br/home/wp-content/uploads/2018/05/machine-learning-o-que-%C3%A9.png)  
-##### Este repositório será atualizado semanalmente, pretendemos compartilhar tudo o que aprendemos para ajudar a comunidade Livre.
+<center><h1><b>Redes Neurais</b></h1></center>
+![](http://qis.fnal.gov/wp-content/uploads/2018/09/3d-ai-artificial-intelligence-1166602.jpg)  
+#### Este repositório será atualizado semanalmente, pretendemos compartilhar tudo o que aprendemos para ajudar a comunidade Livre.
 By [J.Junqueira](https://github.com/kuroninho), [Sam](https://github.com/Sam-Marx) and [Pedro](https://github.com/ShowTiime).
 ㅤㅤ  
 
@@ -14,21 +13,18 @@ Grupo no Telegram: [Clique aqui](https://t.me/abhackerspace)
     * Sábado
     * Assim que possível
     
----
+----
 
-- Redes Neurais
-   - [Introdução](https://github.com/Sam-Marx/redes-neurais#introdu%C3%A7%C3%A3o)
-      - [O que é uma Rede Neural Artificial](https://github.com/Sam-Marx/redes-neurais#o-que-%C3%A9-uma-rede-neural-artificial)
-      - [Aplicações das Redes Neurais Artificiais](https://github.com/Sam-Marx/redes-neurais#aplica%C3%A7%C3%B5es-das-redes-neurais-artificiais)
-   - [O Início de Tudo](https://github.com/Sam-Marx/redes-neurais#o-in%C3%ADcio-de-tudo)
-      - [O Neurônio Biológico](https://github.com/Sam-Marx/redes-neurais#o-neur%C3%B4nio-biol%C3%B3gico)
-      - [O Neurônio Matemático](https://github.com/Sam-Marx/redes-neurais#o-neur%C3%B4nio-matem%C3%A1tico)
+## Índice
 
-- Aprendizado de máquina
-   - [Tipos de sistemas do aprendizado de máquina - parte um](https://github.com/Sam-Marx/redes-neurais/blob/master/tutoriais/sistemas_de_aprendizado_parte1.md)
+* [Capítulo um - Introdução](https://github.com/Sam-Marx/redes-neurais#introdução)
+  * [O que é uma Rede Neural Artificial](https://github.com/Sam-Marx/redes-neurais#o-que-é-uma-rede-neural-artificial)
+  * [Aplicações das Redes Neurais Artificiais](https://github.com/Sam-Marx/redes-neurais#aplicações-das-redes-neurais-artificiais)
+  * [O Início de Tudo](https://github.com/Sam-Marx/redes-neurais#o-início-de-tudo)
+* Capítulo dois- Aprendizado de máquina (Machine Learning)
+* Capítulo três - Aprofundando as Redes Neurais
+* [Referências bibliográficas](https://github.com/Sam-Marx/redes-neurais#referências-bibliográficas)
 
-- Outros
-   - [Conteúdo recomendado](https://github.com/Sam-Marx/redes-neurais/blob/master/recomendados.md#conteúdos-recomendados)
 ---
 
 ## Introdução
@@ -73,17 +69,15 @@ Na realidade, podem ser usadas em sistemas diferentes, como no comércio (recome
 
 ---
 
-## O Início de Tudo
+### O Início de Tudo
 
 Na tentativa de criar sistemas inteligentes, uma ideia que vem quase que instantaneamente às nossas cabeças é a de simular o sistema mais rápido e mais potente que conhecemos hoje em dia em máquinas, o cérebro humano. A rede neural, é um ramo do aprendizado de máquina que tenta simular o comportamento do cérebro humano, usando para isso conceitos da álgebra linear, da estatística, do cálculo e da biologia.
 
-Por mais que isso possa assustar de primeira, CALMA!!! Sempre que tento aprender algo que parece extremamente complexo, a abordagem que sigo é a de sempre ir no fundamento da coisa, o famoso “começar do começo”, e é isso que você está fazendo agora, conhecendo o início de uma base de conceitos que irá lhe ajudar a entender melhor as Redes Neurais Artificiais.
-
-### O Neurônio Biológico
+#### O Neurônio Biológico
 
 Por que então não começar do mais básico? O nosso cérebro faz parte do sistema nervoso, esse por sua vez possui um sistema extremamente complexo de células que são determinantes para a vida dos seres vivos. A unidade fundamental do sistema nervoso é a célula nervosa, ou, como vamos chamá-la daqui em diante, o neurônio.
 
-A estrutura básica de um neurônio é a apresentada na figura abaixo. Nela podemos observar três partes principais, os dendritos (1), que são ramificações onde a principal função é receber estímulos nervosos vindos do ambiente ou, mais comumente, de outros neurônios. Esses estímulos chegam até o corpo celular (2, alguns chamam de soma), onde são processados e por fim vão até o axônio (3) que pega o novo estímulo gerado pelo corpo celular e o envia para outros neurônios através de seus terminais. 
+A estrutura básica de um neurônio é a apresentada na figura abaixo. Nela podemos observar três partes principais, os dendritos (1), que são ramificações onde a principal função é receber estímulos nervosos vindos do ambiente ou, mais comumente, de outros neurônios. Esses estímulos chegam até o corpo celular (2; alguns chamam de soma), onde são processados e por fim vão até o axônio (3) que pega o novo estímulo gerado pelo corpo celular e o envia para outros neurônios através de seus terminais. 
 
 Tais estímulos que são conduzidos pelo axônio e que passa pelos seus terminais, entram em contato com os dendritos de outros neurônios. A esse contato damos o nome de **sinapse**. Assim a nossa rede neural é formada, pela junção de bilhões desses neurônios, que conseguem realizar todo o processamento em frações de segundos.
 
@@ -91,11 +85,11 @@ Tais estímulos que são conduzidos pelo axônio e que passa pelos seus terminai
   <img src="https://www.sistemanovi.com.br/basenovi/image/ConteudosDisciplinas/5/13/41/300411/neuronio.png">
 </p>
 
-É importante conhecermos a ordem de funcionamento do neurônio biológico, visto que ele é a base para o neurônio matemático que se comporta de forma semelhante. Os dendritos e o corpo celular, atuam como uma camada de entrada para o neurônio, onde o estímulo vindo de sensores (retina, papilas, epiderme, etc) ou de outros neurônios chegam aos dendritos e são processados pelo corpo celular. Após isso, esses sinais são encaminhados para o axônio, e ,se forem superior a um limiar de disparo, seguem pelo axônio até os seus terminais. Caso contrário, são considerados irrelevantes e são bloqueados. Os sinais que passam e chegam aos terminais servem como entrada para outros neurônios através da interação terminal axônico ⇒ dendrito.
+É importante conhecermos a ordem de funcionamento do neurônio biológico, visto que ele é a base para o neurônio matemático que se comporta de forma semelhante. Os dendritos e o corpo celular, atuam como uma camada de entrada para o neurônio, onde o estímulo vindo de sensores (retina, papilas, epiderme etc.) ou de outros neurônios chegam aos dendritos e são processados pelo corpo celular. Após isso, esses sinais são encaminhados para o axônio,  e, se forem superior a um limiar de disparo, seguem pelo axônio até os seus terminais. Caso contrário, são considerados irrelevantes e são bloqueados. Os sinais que passam e chegam aos terminais servem como entrada para outros neurônios através da interação terminal axônico ⇒ dendrito.
 
 Foi com essa inspiração que o componente base das redes neurais artificiais foi criado, o neurônio matemático, o qual você vai conhecer agora mesmo.
 
-### O Neurônio Matemático
+#### O Neurônio Matemático
 
 Assim como o neurônio biológico é a célula base que compõe a rede neural do nosso cérebro, o neurônio matemático é o elemento base para as Redes Neurais Artificiais, e por serem provenientes dos neurônios biológicos, podemos traçar vários paralelos para entendermos melhor o seu funcionamento.
 
@@ -131,6 +125,17 @@ O neurônio matemático pode conter o bias (tendência), -![\theta](https://late
    <img width="600" height="279" src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Sadssa.png" />
 </p>
 
-É assim que o neurônio matemático simula um neurônio biológico e é assim que começa nosso estudo por esse ramo da IA. O neurônio é a unidade básica de tudo que vamos ver pela frente, desde as redes Perceptron e Adaline (que serão nossos próximos objetos de estudo) à Redes Neurais mais complexas, como as Redes Recorrentes, as Redes Convolucionais e a famosas Deep Learning. Além dessas redes básicas, veremos como é o aprendizado de uma rede neural, a partir do algoritmo mais simples de correção de erros e uma amostra da limitação dessas arquiteturas iniciais.
+É assim que o neurônio matemático simula um neurônio biológico e é assim que começa nosso estudo por esse ramo da IA. O neurônio é a unidade básica de tudo que vamos ver pela frente, desde as redes Perceptron e Adaline (que serão nossos próximos objetos de estudo) à Redes Neurais mais complexas, como as Redes Recorrentes, as Redes Convolucionais e a famosa Deep Learning. Além dessas redes básicas, veremos como é o aprendizado de uma rede neural, a partir do algoritmo mais simples de correção de erros e uma amostra da limitação dessas arquiteturas iniciais.
 
 ---
+
+## Referências bibliográficas
+
+[O que é uma Rede Neural Artificial]: https://portal.tcu.gov.br/inovatcu/noticias/aprendizado-de-maquina-e-divertido.htm
+[O que é uma Rede Neural Artificial]: http://conteudo.icmc.usp.br/pessoas/andre/research/neural/
+[Aplicações das Redes Neurais Artificiais]: https://blog.statsbot.co/neural-networks-for-beginners-d99f2235efca
+[Aplicações das Redes Neurais Artificiais]: https://towardsdatascience.com/introduction-to-neural-networks-advantages-and-applications-96851bd1a207
+[Aplicações das Redes Neurais Artificiais]: https://medium.com/@jayeshbahire/real-world-applications-of-artificial-neural-networks-a6a6bc17ad6a
+[Aplicações das Redes Neurais Artificiais]: https://www.quora.com/What-are-the-applications-of-neural-networks
+
+
