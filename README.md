@@ -109,10 +109,6 @@ Se o conjunto de entradas, após ponderadas e somadas, ultrapassarem um certo li
 
 A função linear (a) retorna apenas o valor de *u* (*u* é o soma de todas entradas ponderadas pelos seus respectivos pesos sinápticos). A função limiar (b) é a função em que o limiar (threshold) irá definir a saída da função. Quando a soma das entradas ultrapassa esse limiar, o resultado é igual a 1 e o neurônio é ativado. Quanto maior o limiar, mais difícil será para o neurônio ser ativo. Por último, a função sigmoidal (c) representa uma aproximação contínua e diferencial da função limiar.
 
-<p align="center">
-   <img width="600" height="179" src="https://imu.gr/images/2019/08/10/fucntions.md.png" />
-</p>
-
 O neurônio matemático pode conter o bias (tendência), -![\theta](https://latex.codecogs.com/svg.latex?\theta) representado na figura abaixo, que é incluído ao somatório das entradas com o intuito de aumentar o grau de liberdade da função de ativação e a capacidade de aproximação da rede. O valor do bias, assim como os dos pesos sinápticos é ajustado durante o aprendizado do neurônio (cenas dos próximos capítulos) e ele possibilita que um neurônio apresente uma saída não nula mesmo se todas as suas entradas forem nulas. Sem isso não seria possível fazer com que o neurônio aprendesse o “ou exclusivo” (![\oplus](https://latex.codecogs.com/svg.latex?\oplus)), algo que mudou o rumo das pesquisas em Rede Neural, mas vamos falar sobre isso depois .
 
 <p align="center">
