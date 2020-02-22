@@ -20,4 +20,5 @@ Este mini-curso é destinado a estudantes que gostariam de se atualizar sobre os
 * [Curso de Python 3](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6), do Curso em Vídeo. Curso básico e de ótima qualidade, criado por uma iniciativa de crowdfunding do Gustavo Guanabara.
 * [AcademIA](https://www.microsoft.com/pt-br/academia#coreui-contentplacement-9ok5ms4), da Microsoft. É uma plataforma de capacitação com cursos gratuitos de inteligência artificial, com 12 módulos gratuitos sobre inteligência artificial (IA) – desde a introdução básica até a tecnologia, à sua linguagem de programação e aplicações.
 * [Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/). Curso online da Google, que visa ensinar machine learning de forma simples e prática.
+* [Aprendizagem Automática](https://pt.coursera.org/learn/machine-learning), de Andrew Ng, co-fundador da Coursera e professor adjunto de ciência da computação em Stanford.
 
