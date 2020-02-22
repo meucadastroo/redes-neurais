@@ -1,19 +1,15 @@
 <center><h1><b>Redes Neurais</b></h1></center>
 
-![data](http://qis.fnal.gov/wp-content/uploads/2018/09/3d-ai-artificial-intelligence-1166602.jpg)  
+![data](https://engineering.stanford.edu/sites/default/files/styles/full_width_banner_tall/public/optogenetics.jpg)  
 
 #### Este repositório será atualizado semanalmente, pretendemos compartilhar tudo o que aprendemos para ajudar a comunidade Livre.
-By [J.Junqueira](https://github.com/kuroninho), [Sam](https://github.com/Sam-Marx) and [Pedro](https://github.com/ShowTiime).
+Por [J.Junqueira](https://github.com/kuroninho), [Sam](https://github.com/Sam-Marx) e [Pedro](https://github.com/ShowTiime)?
 ㅤㅤ  
 
 Acervo no Telegram: [Clique aqui](https://t.me/AcervoDoSam)
 
-Grupo no Telegram: [Clique aqui](https://t.me/abhackerspace)
-
-* Data prevista para postagens:  
-    * Sexta
-    * Sábado
-    * Assim que possível
+* Data prevista para postagens:
+    * **Assim que possível**
     
 ----
 
@@ -82,10 +78,6 @@ Por que então não começar do mais básico? O nosso cérebro faz parte do sist
 A estrutura básica de um neurônio é a apresentada na figura abaixo. Nela podemos observar três partes principais, os dendritos (1), que são ramificações onde a principal função é receber estímulos nervosos vindos do ambiente ou, mais comumente, de outros neurônios. Esses estímulos chegam até o corpo celular (2; alguns chamam de soma), onde são processados e por fim vão até o axônio (3) que pega o novo estímulo gerado pelo corpo celular e o envia para outros neurônios através de seus terminais. 
 
 Tais estímulos que são conduzidos pelo axônio e que passa pelos seus terminais, entram em contato com os dendritos de outros neurônios. A esse contato damos o nome de **sinapse**. Assim a nossa rede neural é formada, pela junção de bilhões desses neurônios, que conseguem realizar todo o processamento em frações de segundos.
-
-<p align="center">
-  <img src="https://www.sistemanovi.com.br/basenovi/image/ConteudosDisciplinas/5/13/41/300411/neuronio.png">
-</p>
 
 É importante conhecermos a ordem de funcionamento do neurônio biológico, visto que ele é a base para o neurônio matemático que se comporta de forma semelhante. Os dendritos e o corpo celular, atuam como uma camada de entrada para o neurônio, onde o estímulo vindo de sensores (retina, papilas, epiderme etc.) ou de outros neurônios chegam aos dendritos e são processados pelo corpo celular. Após isso, esses sinais são encaminhados para o axônio,  e, se forem superior a um limiar de disparo, seguem pelo axônio até os seus terminais. Caso contrário, são considerados irrelevantes e são bloqueados. Os sinais que passam e chegam aos terminais servem como entrada para outros neurônios através da interação terminal axônico ⇒ dendrito.
 
